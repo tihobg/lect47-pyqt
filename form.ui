@@ -19,10 +19,17 @@
      <x>40</x>
      <y>50</y>
      <width>444</width>
-     <height>126</height>
+     <height>160</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="2">
+     <widget class="QPushButton" name="btn_Six">
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+    </item>
     <item row="2" column="0">
      <widget class="QPushButton" name="btn_Seven">
       <property name="text">
@@ -37,10 +44,24 @@
       </property>
      </widget>
     </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="btn_Five">
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
     <item row="2" column="2">
      <widget class="QPushButton" name="btn_Nine">
       <property name="text">
        <string>9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="btn_Subtract">
+      <property name="text">
+       <string>-</string>
       </property>
      </widget>
     </item>
@@ -55,6 +76,13 @@
      <widget class="QPushButton" name="btn_Divide_2">
       <property name="text">
        <string>*</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="btn_Four">
+      <property name="text">
+       <string>4</string>
       </property>
      </widget>
     </item>
@@ -82,31 +110,31 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
-     <widget class="QPushButton" name="btn_Four">
+    <item row="4" column="0">
+     <widget class="QPushButton" name="btn_One">
       <property name="text">
-       <string>4</string>
+       <string>1</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QPushButton" name="btn_Five">
+    <item row="4" column="1">
+     <widget class="QPushButton" name="btn_Two">
       <property name="text">
-       <string>5</string>
+       <string>2</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="btn_Six">
+    <item row="4" column="2">
+     <widget class="QPushButton" name="btn_Three">
       <property name="text">
-       <string>6</string>
+       <string>3</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="3">
-     <widget class="QPushButton" name="btn_Subtract">
+    <item row="4" column="3">
+     <widget class="QPushButton" name="btn_Add">
       <property name="text">
-       <string>-</string>
+       <string>+</string>
       </property>
      </widget>
     </item>
