@@ -19,7 +19,7 @@
      <x>40</x>
      <y>50</y>
      <width>444</width>
-     <height>194</height>
+     <height>230</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -107,6 +107,20 @@
       </property>
      </widget>
     </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QPushButton" name="btn_Zero">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="btn_Comma">
+      <property name="text">
+       <string>,</string>
+      </property>
+     </widget>
+    </item>
     <item row="3" column="0">
      <widget class="QPushButton" name="btn_Four">
       <property name="text">
@@ -131,31 +145,26 @@
     <item row="0" column="0" colspan="4">
      <widget class="QLineEdit" name="le_WriteNum"/>
     </item>
-    <item row="1" column="0">
-     <widget class="QPushButton" name="btn_Clear">
-      <property name="text">
-       <string>C</string>
-      </property>
-     </widget>
-    </item>
     <item row="5" column="3">
      <widget class="QPushButton" name="btn_Equal">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="text">
        <string>=</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="2">
-     <widget class="QPushButton" name="btn_Comma">
-      <property name="text">
-       <string>,</string>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btn_Clear">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
-     </widget>
-    </item>
-    <item row="5" column="0" colspan="2">
-     <widget class="QPushButton" name="btn_Zero">
       <property name="text">
-       <string>0</string>
+       <string>C</string>
       </property>
      </widget>
     </item>
