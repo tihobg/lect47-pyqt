@@ -1,5 +1,4 @@
 import sys
-
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 from form import Ui_Form
 
